@@ -4,9 +4,9 @@ const express = require('express');
 const { Octokit } = require('@octokit/rest');
 
 // ================= 1. CẤU HÌNH GITHUB CỦA BẠN =================
-const GITHUB_TOKEN = 'DÁN_TOKEN_GITHUB_CỦA_BẠN_VÀO_ĐÂY';
-const GH_OWNER = 'TÊN_TÀI_KHOẢN_GITHUB_CỦA_BẠN';
-const GH_REPO = 'mc-bot-pro'; // Đổi nếu bạn đặt tên kho lưu trữ khác
+const GITHUB_TOKEN = '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';
+const GH_OWNER = 'hehhhbnxs';
+const GH_REPO = 'bot-treo'; // Đổi nếu bạn đặt tên kho lưu trữ khác
 const GH_FILE_PATH = 'data.json';
 // ==============================================================
 
